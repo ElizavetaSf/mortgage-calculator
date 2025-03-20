@@ -1,0 +1,38 @@
+.formTitle {
+  margin: 10px 0;
+}
+
+.bankChoice {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  inset: 0;
+  border-radius: 40px;
+}
+
+.bankCheckbox {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  padding: 13px 17px;
+}
+
+.bankCheckbox > img, .bankCheckbox > span {
+  z-index: 2000;
+}
+
+.bankChoice:checked {
+  background-color: #d3d3d3;
+}
+
+.bankChoice:checked ~ span {
+  font-weight: 600;
+}
+
+.typeRadiobutton {
+  display: block;
+  margin: 10px;
+}

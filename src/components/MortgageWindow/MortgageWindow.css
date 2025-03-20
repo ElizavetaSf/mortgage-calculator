@@ -1,0 +1,20 @@
+.mortgage-window {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 3vw;
+  justify-content: space-evenly;
+}
+
+.mortgage-window-form {
+  width: max(25vw, 300px);
+  height: 100%;
+  background-color: aliceblue;
+  border-radius: 14px;
+  padding: 2vw;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+}
